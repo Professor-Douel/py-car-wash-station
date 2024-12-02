@@ -10,11 +10,7 @@ class Car:
 
 
 class CarWashStation:
-    def __init__(self,
-                 distance_from_city_center: float,
-                 clean_power: int, average_rating:float,
-                 count_of_ratings: int
-                 ):
+    def __init__(self, distance_from_city_center=5, clean_power=6, average_rating=3.5, count_of_ratings=6):
         self.distance_from_city_center = distance_from_city_center
         self.clean_power = clean_power
         self.average_rating = round(average_rating, 1)
